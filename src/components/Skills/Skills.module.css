@@ -1,0 +1,27 @@
+.skills {
+  color: var(--primary);
+  font-size: 24px;
+  line-height: 45px;
+  /* height: 100vh; */
+  position: relative;
+}
+.skills img {
+  background-color: wheat;
+  border-radius: 50px;
+}
+.skills-ul {
+  border-bottom: 1px solid grey;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px;
+  }
+  .skills {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .skillsImg-container img {
+    width: 800px;
+  }
+}

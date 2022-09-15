@@ -1,0 +1,30 @@
+.resume-box {
+  background-color: #161616;
+  border-left: 2px solid transparent;
+  padding: 32px 48px;
+  position: relative;
+  border-left-color: var(--secondary);
+  border-bottom: 1px solid #313131;
+  color: white;
+}
+
+.resume-box .item-arrow::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--secondary);
+}
+.resume-box .item-arrow::after {
+  content: '';
+  position: absolute;
+  left: 16px;
+  top: 40px;
+  width: 16px;
+  height: 16px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent var(--secondary);
+}

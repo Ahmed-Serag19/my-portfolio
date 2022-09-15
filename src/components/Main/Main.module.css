@@ -1,0 +1,12 @@
+.main h1 {
+  color: var(--primary);
+}
+
+@media (max-width: 992px) {
+  .main {
+    text-align: center;
+  }
+  .main h1 {
+    font-size: 45px;
+  }
+}

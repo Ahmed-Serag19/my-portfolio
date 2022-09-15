@@ -1,0 +1,25 @@
+footer {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: var(--primary);
+  height: 75px;
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  footer {
+    height: 100px;
+    margin-top: 20px;
+    top: 800px;
+  }
+  .footer {
+    font-size: 30px;
+  }
+}

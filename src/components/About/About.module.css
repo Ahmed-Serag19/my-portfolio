@@ -1,0 +1,52 @@
+.info {
+  color: var(--primary);
+  font-size: 20px;
+  line-height: 35px;
+}
+.main-about {
+  border-bottom: 1px gray solid;
+}
+.personal-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-links ul li a {
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.7s all;
+  font-size: 45px;
+  padding: 0px 5px;
+}
+.personal-links ul li a:hover {
+  text-decoration: none;
+  color: yellow;
+  font-size: 65px;
+}
+.about-img img {
+  border-radius: 50px;
+}
+
+@media (max-width: 992px) {
+  .about h1 {
+    font-size: 55px;
+  }
+
+  .about p {
+    font-size: 35px;
+  }
+  .info {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .personal-links ul li a {
+    font-size: 70px;
+  }
+  .personal-links ul li a:hover {
+    font-size: 90px;
+  }
+  .resume {
+    font-size: 40px;
+  }
+}

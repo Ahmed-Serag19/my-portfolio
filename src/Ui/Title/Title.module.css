@@ -1,0 +1,23 @@
+.titleContainer {
+  text-align: center;
+}
+.titleContainer p {
+  color: rgb(207, 206, 206);
+}
+.titleContainer h1 {
+  color: var(--primary);
+  position: relative;
+}
+
+.titleContainer h1::after {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: var(--secondary);
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  top: 130%;
+  position: absolute;
+}

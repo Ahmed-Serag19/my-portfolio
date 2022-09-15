@@ -1,0 +1,59 @@
+.project-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 400px;
+  background-color: wheat;
+}
+.project-container img {
+  transition: 0.5s 0.5s;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 400px;
+  object-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #f5b535;
+  opacity: 0.8;
+  transition: 0.5s;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-container:hover .overlay {
+  left: 0;
+}
+.project-container:hover img {
+  transform: scale(1.2);
+}
+
+.content {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.content a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+.content :hover {
+  color: white;
+}
