@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.a5ddf4ab.css",
+    "main.js": "/my-portfolio/static/js/main.1e55d70b.js",
+    "static/media/About.jpg": "/my-portfolio/static/media/About.4c3dde3a4bf71d080e1b.jpg",
+    "static/media/yogurt.png": "/my-portfolio/static/media/yogurt.d4e1b47924a097d1c50c.png",
+    "static/media/typing-bro.png": "/my-portfolio/static/media/typing-bro.79f94beda9439efbd4c0.png",
+    "static/media/movie.png": "/my-portfolio/static/media/movie.123083c60288bcb6658a.png",
+    "static/media/Profile.png": "/my-portfolio/static/media/Profile.237fbce17e47a5358e4d.png",
+    "static/media/game.png": "/my-portfolio/static/media/game.53082c2c1e0f178b6174.png",
+    "static/media/projects-bro.png": "/my-portfolio/static/media/projects-bro.4d9ed64a9d6aff854275.png",
+    "static/media/personal.png": "/my-portfolio/static/media/personal.6eb8c88ad26d7c20a2b7.png",
+    "static/media/Skills.png": "/my-portfolio/static/media/Skills.5b1eda45b3d91ad6bf0f.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.a5ddf4ab.css.map": "/my-portfolio/static/css/main.a5ddf4ab.css.map",
+    "main.1e55d70b.js.map": "/my-portfolio/static/js/main.1e55d70b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5ddf4ab.css",
+    "static/js/main.1e55d70b.js"
+  ]
+}
